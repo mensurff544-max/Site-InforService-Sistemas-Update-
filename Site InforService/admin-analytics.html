@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <title>InforService | Analytics</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="container topbar-content">
+            <span>Painel estático com dados locais para demonstração do desempenho do site.</span>
+            <a href="index.html">Voltar ao site</a>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html" aria-label="InforService - voltar para o início">
+                <span class="brand-title">InforService Sistemas &amp; Suporte</span>
+            </a>
+            <nav class="nav" aria-label="Navegação principal">
+                <a href="index.html">Início</a>
+                <a href="services.html">Serviços</a>
+                <a href="contact.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container content" role="main">
+        <section class="card reveal-on-scroll">
+            <span class="eyebrow">Painel local</span>
+            <h1>Analytics de conversão</h1>
+            <p>Os dados abaixo são carregados de um arquivo JSON local para manter o projeto 100% estático.</p>
+        </section>
+
+        <section class="section-block reveal-on-scroll analytics-kpis" id="analytics-kpis"></section>
+
+        <section class="section-block reveal-on-scroll analytics-grid-two">
+            <article class="card glass-card">
+                <h3>Páginas com mais visualizações</h3>
+                <ul class="analytics-list" id="top-pages"></ul>
+            </article>
+
+            <article class="card glass-card">
+                <h3>CTAs mais clicados</h3>
+                <ul class="analytics-list" id="top-ctas"></ul>
+            </article>
+
+            <article class="card glass-card">
+                <h3>Leads por serviço</h3>
+                <ul class="analytics-list" id="leads-by-service"></ul>
+            </article>
+        </section>
+
+        <section class="section-block card reveal-on-scroll">
+            <h3>Atividade diária</h3>
+            <div class="daily-chart" id="daily-chart"></div>
+            <div class="daily-legend">
+                <span class="legend-bar"></span> Pageviews
+                <span class="legend-dot"></span> Lead enviado
+            </div>
+        </section>
+
+        <section class="section-block card reveal-on-scroll">
+            <h3>Eventos recentes</h3>
+            <div class="analytics-table-wrap">
+                <table class="analytics-table">
+                    <thead>
+                        <tr>
+                            <th>Horário</th>
+                            <th>Evento</th>
+                            <th>Página</th>
+                            <th>Meta</th>
+                        </tr>
+                    </thead>
+                    <tbody id="recent-events"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© InforService - Soluções de TI e NOC</p>
+            <p class="footer-contact"><span>Painel estático com JSON local</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/site.js"></script>
+    <script src="assets/js/analytics.js"></script>
+</body>
+</html>
+
+

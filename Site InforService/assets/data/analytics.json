@@ -1,0 +1,44 @@
+﻿{
+  "summary": {
+    "total_events": 1482,
+    "page_views": 1086,
+    "cta_clicks": 214,
+    "conversion_rate": 19.71,
+    "lead_submits": 63,
+    "lead_rate": 5.8
+  },
+  "top_pages": [
+    ["/index.html", 642],
+    ["/services.html", 301],
+    ["/contact.html", 143]
+  ],
+  "top_ctas": [
+    ["home_hero_solicitar_atendimento", 76],
+    ["home_cta_entrar_contato", 58],
+    ["services_cta_falar_especialista", 41]
+  ],
+  "leads_by_service": [
+    ["Suporte de TI", 22],
+    ["Sistema NOC", 17],
+    ["Redes", 13],
+    ["Telecomunicações", 11]
+  ],
+  "daily_activity": [
+    { "day": "2026-04-05", "page_views": 118, "bar_pct": 64, "lead_submits": 4 },
+    { "day": "2026-04-06", "page_views": 126, "bar_pct": 69, "lead_submits": 6 },
+    { "day": "2026-04-07", "page_views": 132, "bar_pct": 72, "lead_submits": 8 },
+    { "day": "2026-04-08", "page_views": 146, "bar_pct": 80, "lead_submits": 9 },
+    { "day": "2026-04-09", "page_views": 153, "bar_pct": 84, "lead_submits": 11 },
+    { "day": "2026-04-10", "page_views": 171, "bar_pct": 94, "lead_submits": 12 },
+    { "day": "2026-04-11", "page_views": 182, "bar_pct": 100, "lead_submits": 13 }
+  ],
+  "events": [
+    { "timestamp": "2026-04-11 18:40", "event": "lead_submit", "page": "/contact.html", "meta": "Sistema NOC" },
+    { "timestamp": "2026-04-11 18:11", "event": "cta_click", "page": "/services.html", "meta": "services_cta_falar_especialista" },
+    { "timestamp": "2026-04-11 17:32", "event": "page_view", "page": "/index.html", "meta": "InforService | Início" },
+    { "timestamp": "2026-04-11 16:58", "event": "lead_submit", "page": "/contact.html", "meta": "Suporte de TI" },
+    { "timestamp": "2026-04-11 15:20", "event": "cta_click", "page": "/index.html", "meta": "home_hero_ver_servicos" }
+  ]
+}
+
+
